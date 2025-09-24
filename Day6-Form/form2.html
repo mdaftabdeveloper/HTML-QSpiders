@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form part 2</title>
+    <style>
+        .fieldset {
+            width: 150px;
+        }
+    </style>
+</head>
+
+<body>
+    <form action="#">
+        <fieldset class="fieldset">
+            <legend><b>Registration Form</b></legend>
+            <label for="username">
+                Username
+                <input type="text" id="username" name="username">
+            </label>
+            <br><br>
+            <label for="mobile">
+                Mobile:
+                <input type="tel" id="mobile" name="mobile">
+            </label>
+            <br><br>
+            <label for="password">
+                Password
+                <input type="password" id="password" placeholder="password" name="password">
+            </label>
+            <br><br>
+            <select name="yop" id="" title="yop">
+                <option value="" disabled selected>--Select your YOP--</option>
+                <option value="2026">2026</option>
+                <option value="2025">2025</option>
+                <option value="2024">2024</option>
+                <option value="2023">2023</option>
+            </select>
+            <br><br>
+            <label for="userfeedback">
+                User Feedback:
+                <br><br>
+                <textarea name="" id="feedback" placeholder="write something..." name="feedback"></textarea>
+            </label>
+            <br><br>
+            <button type="submit">Sign in</button>
+            <button type="reset">Clear</button>
+        </fieldset>
+    </form>
+</body>
+
+</html>
